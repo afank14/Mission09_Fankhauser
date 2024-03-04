@@ -56,7 +56,7 @@ function TeamList() {
 
 function App() {
   return (
-    // Call the welcome and teamlist functions to display the page
+    // Call the welcome and teamlist functions to display on the page
     <div className="App">
       <Welcome />
       <TeamList />
