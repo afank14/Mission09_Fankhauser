@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* here's some styling to help the list display better */
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  width: 30%; /* Adjust as needed */
+  box-sizing: border-box;
+}
